@@ -1,0 +1,4 @@
+pytest # test runner
+pytest-xdist # parallelisation
+pytest-cov
+pytest-sugar
