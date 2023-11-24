@@ -1,4 +1,11 @@
-from operations import addition, subtraction, multiplication, division
+from operations import (
+    addition,
+    subtraction,
+    multiplication,
+    division,
+    exponentiation,
+    modulo,
+)
 
 
 def test_addition():
@@ -48,5 +55,23 @@ def test_division_exception_on_zero():
     THEN:  the resulting is the division of the two number
 
     Hint: https://stackoverflow.com/questions/23337471/how-to-properly-assert-that-an-exception-gets-raised-in-pytest
+    """
+    pass
+
+
+def test_exponentiation():
+    """
+    GIVEN: Two numbers
+    WHEN:  passed in to the function exponentiation
+    THEN:  the resulting is the exponentiation of the two number
+    """
+    pass
+
+
+def test_modulo():
+    """
+    GIVEN: Two numbers
+    WHEN:  passed in to the function modulo
+    THEN:  the resulting is the modulo of the two number
     """
     pass
