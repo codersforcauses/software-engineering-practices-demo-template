@@ -4,12 +4,12 @@ This repository is about demonstrating the usual workflow of software engineers 
 
 There are usually a couple parts:
 
--   Issues / tickets
--   Kanban board (todo, in progress, review)
--   Pull Requests
--   Code Reviews
+- Issues / tickets
+- Kanban board (todo, in progress, review)
+- Pull Requests
+- Code Reviews
 
-## Instruction
+## Instructions
 
 Do the following:
 
