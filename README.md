@@ -24,7 +24,7 @@ Do the following:
 
 `python3 -m venv venv` to create a new python environment
 
-To activate the virtual environment, run `source venv/bin/activate`
+To activate the virtual environment, run `source venv/bin/activate` or `venv/Scripts/activate`
 
 To install packages, run `pip install -r requirements.txt`
 
