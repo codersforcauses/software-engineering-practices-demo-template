@@ -8,6 +8,20 @@ set -euxo pipefail
 # The body of the ticket will be the content of the markdown file
 
 
+# Check if gh is installed
+if ! command -v gh &> /dev/null
+then
+    # Check if brew is installed
+    if ! command -v brew &> /dev/null
+    then
+        echo "brew could not be found... Installing brew"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    fi
+
+    echo "gh could not be found... Installing gh"
+    brew install gh
+fi
+
 # Make sure gh is setup
 # gh auth status returns 0 if the user is logged in and 1 if the user is not logged in
 if ! gh auth status; then
