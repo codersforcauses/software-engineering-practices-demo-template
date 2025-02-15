@@ -7,6 +7,8 @@ set -euxo pipefail
 # eg. "complete-the-addition-function.md"  will create a ticket with the title "complete the addition function"
 # The body of the ticket will be the content of the markdown file
 
+# How to use: Run `./bin/setup-github-issues.sh` in your terminal
+
 
 # Check if gh is installed
 if ! command -v gh &> /dev/null
